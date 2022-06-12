@@ -23,6 +23,9 @@ setopt autocd
 bindkey -v
 # End of lines configured by zsh-newuser-install
 
+export VISUAL=nvim
+export EDITOR=nvim
+
 # aliases
 alias ls="ls --color=auto"
 if hash exa 2> /dev/null; then
